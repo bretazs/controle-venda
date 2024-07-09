@@ -54,5 +54,5 @@ export const SwitchButton = styled.button`
 export const ErrorMessage = styled.p`
   color: red;
   margin-bottom: 10px;
-  text-align: center; 
+  text-align: center;
 `;

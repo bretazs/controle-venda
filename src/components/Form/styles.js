@@ -47,16 +47,19 @@ export const RadioGroup = styled.div`
     cursor: pointer;
     font-size: 16px;
     padding-inline: 20px; /* Espaçamento entre radio button e label */
+    transition:0.7s;
   }
 
   input[type="radio"]:checked + label {
     color: white;
     background-color: ${(props) => (props.isIncome ? "green" : "red")};
+    transition:0.7s;
   }
 
   input[type="radio"]:not(:checked) + label {
     color: black;
     background-color: #f0f0f0;
+    transition:0.7s;
   }
 `;
 
